@@ -1,5 +1,9 @@
+# =========================================================
+# HMS Project - Git Ignore Rules
+# =========================================================
+
 # ----------------------
-# Node
+# Node / NPM / Yarn
 # ----------------------
 node_modules/
 **/node_modules/
@@ -21,7 +25,6 @@ release/
 # ----------------------
 # Electron specific
 # ----------------------
-# Compiled binaries
 *.exe
 *.dll
 *.dmg
@@ -30,7 +33,6 @@ release/
 *.rpm
 *.snap
 
-# Generated Electron package files
 *.tgz
 *.tar.gz
 
@@ -49,22 +51,14 @@ logs/*.log
 .env.*.local
 
 # ----------------------
-# Visual Studio / Windows specific
+# Visual Studio / Windows
 # ----------------------
 .vs/
 *.user
 *.suo
 *.njsproj
-*.njsproj.user
 *.vcxproj
 *.vcxproj.filters
-*.aps
-*.ncb
-*.opendb
-*.idb
-*.ipch
-*.iobj
-*.ipdb
 *.psess
 *.vsp
 *.vspx
@@ -75,16 +69,12 @@ logs/*.log
 *.dbmdl
 *.bak
 *.tmp
-bin/
-obj/
-
-# Windows Explorer
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 
 # ----------------------
-# IDE
+# IDE configs
 # ----------------------
 .vscode/
 .idea/
