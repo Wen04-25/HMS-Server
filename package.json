@@ -1,0 +1,11 @@
+{
+  "name": "hms",
+  "version": "0.0.0",
+  "description": "HMS",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "proxy": "http://localhost:1337",
+  "dependencies": {}
+}
