@@ -49,13 +49,22 @@ logs/*.log
 .env.*.local
 
 # ----------------------
-# VS / Windows specific
+# Visual Studio / Windows specific
 # ----------------------
+.vs/
 *.user
 *.suo
 *.njsproj
+*.njsproj.user
 *.vcxproj
 *.vcxproj.filters
+*.aps
+*.ncb
+*.opendb
+*.idb
+*.ipch
+*.iobj
+*.ipdb
 *.psess
 *.vsp
 *.vspx
@@ -66,6 +75,10 @@ logs/*.log
 *.dbmdl
 *.bak
 *.tmp
+bin/
+obj/
+
+# Windows Explorer
 Thumbs.db
 ehthumbs.db
 Desktop.ini
