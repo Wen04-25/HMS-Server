@@ -1,0 +1,84 @@
+# ----------------------
+# Node
+# ----------------------
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ----------------------
+# Build outputs (React + Electron)
+# ----------------------
+dist/
+build/
+out/
+release/
+*.asar
+
+# ----------------------
+# Electron specific
+# ----------------------
+# Compiled binaries
+*.exe
+*.dll
+*.dmg
+*.app
+*.deb
+*.rpm
+*.snap
+
+# Generated Electron package files
+*.tgz
+*.tar.gz
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+logs/
+logs/*.log
+
+# ----------------------
+# Environment / Secrets
+# ----------------------
+.env
+.env.local
+.env.*.local
+
+# ----------------------
+# VS / Windows specific
+# ----------------------
+*.user
+*.suo
+*.njsproj
+*.vcxproj
+*.vcxproj.filters
+*.psess
+*.vsp
+*.vspx
+*.pidb
+*.obj
+*.pdb
+*.cache
+*.dbmdl
+*.bak
+*.tmp
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ----------------------
+# IDE
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------
+# Misc
+# ----------------------
+.DS_Store
